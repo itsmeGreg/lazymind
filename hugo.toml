@@ -1,4 +1,4 @@
-baseURL = 'lazymind.nz'
+baseURL = 'https://lazymind.nz'
 languageCode = 'en-us'
 title = 'Lazy Mind'
 paginate = 5
