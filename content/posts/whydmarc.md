@@ -5,7 +5,7 @@ draft: false
 cover:
     image: img/dmarc-policy.png
     alt: 'DMARC Policy Image'
-    caption: 'Caption for DMARC image.'
+    caption: ''
 tags: ["DNS","DMARC","Email"]
 categories: ["InfoSec"]
 ---
