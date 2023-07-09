@@ -7,11 +7,6 @@ enableEmoji = true
 
 theme = 'PaperMod'
 
-[label]
-icon = "/brain.png"
-iconHeight = 35
-
-
 [[menu.main]]
 identifier = "categories"
 name = "Categories"
