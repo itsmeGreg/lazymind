@@ -1,0 +1,59 @@
+baseURL = 'localhost'
+languageCode = 'en-us'
+title = 'Lazy Mind'
+paginate = 5
+enableRobotsTXT = true
+enableEmoji = true
+
+theme = 'PaperMod'
+
+[label]
+icon = "/brain.png"
+iconHeight = 35
+
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 40
+
+[params]
+env = "production"
+title = "Lazy Mind"
+description = "Random stuff from a lazy mind."
+DateFormat = "2 January, 2006"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowRssButtonInSectionTermList = true
+
+[params.homeInfoParams]
+Title = "Hi there \U0001F44B"
+Content = "This site serves as a place to put ideas and stuff so I don't have to keep them in my head. Hence lazy mind...."
+
+[[params.socialIcons]]
+name = "mastodon"
+url = "https://infosec.exchange/@gregthomson"
+
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
